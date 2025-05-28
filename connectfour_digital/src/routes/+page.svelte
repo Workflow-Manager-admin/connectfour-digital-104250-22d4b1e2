@@ -278,8 +278,8 @@
     aria-label="Connect Four grid"
     role="grid"
     tabindex="0">
-    {#each Array(GRID_ROWS).fill() as _, rowIdx (rowIdx)}
-      {#each Array(GRID_COLS).fill() as __, colIdx (colIdx)}
+    {#each Array(GRID_ROWS).keys() as rowIdx (rowIdx)}
+      {#each Array(GRID_COLS).keys() as colIdx (colIdx)}
         <div
           class="cell"
           data-win={isWinCell(rowIdx, colIdx)}

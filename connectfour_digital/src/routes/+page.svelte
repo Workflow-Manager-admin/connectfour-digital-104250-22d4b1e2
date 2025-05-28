@@ -278,7 +278,8 @@
     on:mouseleave={() => hoveredCol = -1}
     style="position:relative"
     aria-label="Connect Four grid"
-    role="grid">
+    role="grid"
+    tabindex="0">
     {#each Array(GRID_ROWS) as _rowIdx, rowIdx (rowIdx)}
       {#each Array(GRID_COLS) as _colIdx, colIdx (colIdx)}
         <div

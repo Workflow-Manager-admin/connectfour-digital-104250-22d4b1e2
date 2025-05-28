@@ -2,7 +2,6 @@
   // Color palette and theme
   const COLOR_PRIMARY = "#1976D2"; // Blue (player 1)
   const COLOR_SECONDARY = "#FFC107"; // Yellow (player 2)
-  const COLOR_ACCENT = "#D32F2F"; // Used for winning highlight
   const GRID_COLS = 7;
   const GRID_ROWS = 6;
 
@@ -17,9 +16,6 @@
   let winner = null;
   let winningCells = [];
   let isDropping = false; // disables input during animation
-  let dropRow = -1; // animating disc's row
-  let dropCol = -1; // animating disc's col
-
   // For disc drop animation - track which cell is animating during a move
   let animatingDisc = {row: -1, col: -1, player: null};
 
@@ -283,8 +279,8 @@
     style="position:relative"
     aria-label="Connect Four grid"
     role="grid">
-    {#each Array(GRID_ROWS) as _, rowIdx (rowIdx)}
-      {#each Array(GRID_COLS) as __, colIdx (colIdx)}
+    {#each Array(GRID_ROWS) as _rowIdx, rowIdx (rowIdx)}
+      {#each Array(GRID_COLS) as _colIdx, colIdx (colIdx)}
         <div
           class="cell"
           data-win={isWinCell(rowIdx, colIdx)}
@@ -292,7 +288,7 @@
           aria-colindex={colIdx+1}
           aria-rowindex={rowIdx+1}
           role="gridcell"
-          tabIndex={0}
+          tabindex="0"
           on:mouseenter={() => hoveredCol = colIdx}
           on:focus={() => hoveredCol = colIdx}
           on:mouseleave={() => hoveredCol = -1}

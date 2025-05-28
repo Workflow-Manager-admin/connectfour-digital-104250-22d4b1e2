@@ -37,8 +37,6 @@
     // Start animation for this position
     isDropping = true;
     animatingDisc = { row: 0, col, player: currentPlayer }; // start drop at row 0
-    dropRow = row;
-    dropCol = col;
 
     animateDiscDrop(0, row, col, currentPlayer);
   }

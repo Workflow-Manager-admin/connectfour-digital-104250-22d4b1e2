@@ -8,3 +8,11 @@
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+7:14:18 PM [vite] vite.config.ts changed, restarting server...
+7:14:19 PM [vite] server restarted.
+7:14:26 PM [vite] vite.config.ts changed, restarting server...
+7:14:26 PM [vite] server restarted.
+7:14:31 PM [vite] vite.config.ts changed, restarting server...
+7:14:31 PM [vite] server restarted.
+7:14:41 PM [vite] (client) ✨ new dependencies optimized: clsx
+7:14:41 PM [vite] (client) ✨ optimized dependencies changed. reloading

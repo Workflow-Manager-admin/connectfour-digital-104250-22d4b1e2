@@ -27,3 +27,13 @@
 7:15:07 PM [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
 7:15:32 PM [vite] (client) hmr update /src/routes/+page.svelte
 7:15:32 PM [vite] (ssr) page reload src/routes/+page.svelte
+7:15:54 PM [vite] (client) page reload .svelte-kit/generated/client/app.js
+7:15:54 PM [vite] (client) page reload .svelte-kit/generated/root.js
+7:15:54 PM [vite] (ssr) page reload .svelte-kit/generated/root.js
+7:15:54 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+7:15:54 PM [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+7:15:54 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/2.js
+7:15:54 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+7:15:54 PM [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+7:16:17 PM [vite] (client) hmr update /src/routes/+page.svelte
+7:16:17 PM [vite] (ssr) page reload src/routes/+page.svelte

@@ -45,3 +45,5 @@
 7:16:41 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
 7:16:41 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/2.js
 7:16:41 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+7:17:07 PM [vite] (client) hmr update /src/routes/+page.svelte
+7:17:07 PM [vite] (ssr) page reload src/routes/+page.svelte
